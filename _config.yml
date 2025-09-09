@@ -4,5 +4,7 @@ description: QA Engineer
 show_download: true
 google_analytics: [Your Google Analytics tracking ID]
 remote_theme: pages-themes/minimal@v0.2.0
+markdown: kramdown
+highlighter: rouge
 plugins:
 - jekyll-remote-theme
