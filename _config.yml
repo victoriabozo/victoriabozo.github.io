@@ -2,4 +2,4 @@ title: Victoria Bozo
 logo: /assets/img/headshot_circle.png
 description: QA Engineer
 show_download: true
-#theme: 
+theme: jekyll-theme-minimal
