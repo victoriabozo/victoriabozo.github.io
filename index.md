@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# <p align="center">QA ENGINEER | QUALITY ASSURANCE ANALYST</p> 
+# <p align="center">QA ENGINEER · QUALITY ASSURANCE ANALYST</p> 
 I’m a QA Engineer with a background in screenwriting, translation, and content development, which has given me a sharp eye for detail and clarity. I don’t just look for bugs—I put myself in the end user’s shoes, making apps intuitive, clear, and enjoyable to use.
 
 **Let’s connect!** <br/>
@@ -326,4 +326,4 @@ Courier has accepted the order: <br/>
 **[No push notifications appear. Click HERE for screen recording](assets/reporte/US1%20no%20hay%20notificación%20push.%20pruebas%20en%20limites.mp4)**  
 
 
-<p align="center">° ° °</p>
+# <p align="center">· · ·</p>
