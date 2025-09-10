@@ -322,4 +322,4 @@ Order appears in database:
 Courier has accepted the order:
 ![Courier app](assets/reporte/US1%20prueba%20aceptada%20por%20repartidor.jpg)
 
-[No push notifications appear | Screen recording](assets/reporte/US1%20no%20hay%20notificación%20push.%20pruebas%20en%20limites.mp4)  
+[No push notifications appear. Click HERE for screen recording](assets/reporte/US1%20no%20hay%20notificación%20push.%20pruebas%20en%20limites.mp4)  
