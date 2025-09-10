@@ -5,7 +5,7 @@ layout: default
 # QA ENGINEER | QUALITY ASSURANCE ANALYST
 I’m a QA Engineer with a background in screenwriting, translation, and content development, which has given me a sharp eye for detail and clarity. I don’t just look for bugs—I put myself in the end user’s shoes, making apps intuitive, clear, and enjoyable to use.
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-6A8EDD?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/victoriabozo/)
+Let’s connect! 🔗 [LinkedIn](https://www.linkedin.com/in/victoriabozo/) | 🐙 [GitHub](https://github.com/victoriabozo) | 📄 [Resume](https://drive.google.com/file/d/1BGqwEppZggO9N7ar6yLVAX9AiU-O6d62/view) | ✉️ [victoriabozo.qa@gmail.com](mailto:victoriabozo.qa@gmail.com)
 
 ## Technical Skills
 Testing: Functional, Regression, Smoke, Non-functional | REST | JSON | SQL | Agile/Scrum | DevTools | Technical Writing
