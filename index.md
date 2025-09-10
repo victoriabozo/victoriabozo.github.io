@@ -24,7 +24,7 @@ Testing: Functional, Regression, Smoke, Non-functional | REST | JSON | SQL | Agi
 ![Trello](https://img.shields.io/badge/Trello-3F587A?style=for-the-badge&logo=Trello&logoColor=white)
 
 
-# Projects
+# Featured Projects
 ## Automated Taxi Booking – Urban Routes
 [View Full Project on GitHub](https://github.com/victoriabozo/qa-project-Urban-Routes-es)
 
