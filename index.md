@@ -319,7 +319,7 @@ Order has been created (Postman):
 Order appears in database:
 ![Data base](assets/reporte/US1%20base%20de%20datos.jpg) 
 
-Courier has accepted the order:
+Courier has accepted the order: <br/>
 ![Courier app](assets/reporte/resized.jpg)
 
-[No push notifications appear. Click HERE for screen recording](assets/reporte/US1%20no%20hay%20notificación%20push.%20pruebas%20en%20limites.mp4)  
+**[No push notifications appear. Click HERE for screen recording](assets/reporte/US1%20no%20hay%20notificación%20push.%20pruebas%20en%20limites.mp4)**  
