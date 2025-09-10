@@ -23,8 +23,8 @@ Testing: Functional, Regression, Smoke, Non-functional | REST | JSON | SQL | Agi
 ![Asana](https://img.shields.io/badge/Asana-3F587A?style=for-the-badge&logo=asana&logoColor=white)
 ![Trello](https://img.shields.io/badge/Trello-3F587A?style=for-the-badge&logo=Trello&logoColor=white)
 
-## Projects
-### Automated Taxi Booking – Urban Routes
+# Projects
+## Automated Taxi Booking – Urban Routes
 [View Full Project on GitHub](https://github.com/victoriabozo/qa-project-Urban-Routes-es)
 
 **Overview:**
@@ -100,7 +100,8 @@ class TestUrbanRoutes:
         cls.driver.quit()
   ```
 
-### Automated API Testing – Urban Grocers
+
+## Automated API Testing – Urban Grocers
 [View Full Project on GitHub](https://github.com/victoriabozo/qa-project-Urban-Grocers-app-es)
 
 **Overview:**
@@ -146,10 +147,9 @@ def test_kit_name_1_character(): #Prueba 1
 # ...rest of the tests...
 ```
 
-### Log Analysis & Error Classification
-**Goal:** Save server logs for a specific time period and separate errors by code (400 and 500) into individual files for easier analysis.
 
-**Tools:** cd, mkdir, touch, cat, grep
+## Log Analysis & Error Classification
+**Goal:** Save server logs for a specific time period and separate errors by code (400 and 500) into individual files for easier analysis.
 
 **Commands used (exact sequence):**
 ```bash
@@ -197,10 +197,9 @@ grep ' 500 ' ~/bug1/main.txt > ~/bug1/events/500.txt
 
 **Outcome:** A structured directory ~/bug1 containing main.txt (logs for the chosen period) and ~/bug1/events/400.txt / ~/bug1/events/500.txt with lines filtered by error type — ready for developers or QA engineers to investigate root causes.
 
-### Database | SQL
-**Goal:** Retrieve the number of trips per taxi company for November 15–16, 2017, to verify discrepancies in reported earnings. Return company_name and trips_amount, ordered descending by trips_amount.
 
-**Tools:** SQL (SELECT, COUNT, JOIN, GROUP BY, ORDER BY) on tables trips, cabs, and weather_records.
+## Database | SQL
+**Goal:** Retrieve the number of trips per taxi company for November 15–16, 2017, to verify discrepancies in reported earnings. Return company_name and trips_amount, ordered descending by trips_amount.
 
 **Results Sample:**
 ```
