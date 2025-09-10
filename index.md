@@ -5,7 +5,7 @@ layout: default
 # QA ENGINEER | QUALITY ASSURANCE ANALYST
 I’m a QA Engineer with a background in screenwriting, translation, and content development, which has given me a sharp eye for detail and clarity. I don’t just look for bugs—I put myself in the end user’s shoes, making apps intuitive, clear, and enjoyable to use.
 
-Let’s connect! <br/>
+**Let’s connect!** <br/>
 🔗 [LinkedIn](https://www.linkedin.com/in/victoriabozo/) | 🐙 [GitHub](https://github.com/victoriabozo) | 📄 [Resume](https://drive.google.com/file/d/1BGqwEppZggO9N7ar6yLVAX9AiU-O6d62/view) | ✉️ [victoriabozo.qa@gmail.com](mailto:victoriabozo.qa@gmail.com)
 
 ## Technical Skills
@@ -325,4 +325,5 @@ Courier has accepted the order: <br/>
 
 **[No push notifications appear. Click HERE for screen recording](assets/reporte/US1%20no%20hay%20notificación%20push.%20pruebas%20en%20limites.mp4)**  
 
-<p align="center">🔵</p>
+
+<p align="center">° ° °</p>
