@@ -147,7 +147,7 @@ def test_kit_name_1_character(): #Prueba 1
 # ...rest of the tests...
 ```
 
-
+# Work Samples
 ## Log Analysis & Error Classification
 **Goal:** Save server logs for a specific time period and separate errors by code (400 and 500) into individual files for easier analysis.
 
@@ -235,3 +235,78 @@ GROUP BY
 ORDER BY
     trips_amount DESC;
 ```
+
+## Bug Report – Urban Scooter Push Notification
+Critical issue where scheduled push notifications for upcoming deliveries did not appear. Reproduced the bug by creating a courier and order via Postman, then simulating delivery time on an Android Studio emulator. Documented steps, expected vs. actual results, environment details, and severity for a clear, actionable report.
+
+**Preconditions:**
+- Postman account.
+- Android Studio installed.
+- Urban Scooter installed on an Android Studio device.
+- Environment configured.
+
+**Steps to Reproduce:**
+1. Restart the server if it was active.
+2. Open Postman.
+3. Create a courier:
+   a. Request Type: POST
+   b. Endpoint: /api/v1/courier
+   c. Body:
+```json
+{
+  "login": "ninja",
+  "password": "1234",
+  "firstName": "saske"
+}
+```
+
+4. Create an order:
+   a. Request Type: POST
+   b. Endpoint: /api/v1/orders
+   c. Body: (deliveryDate must be at least 2 days in the future)
+```json
+{
+  "firstName": "Naruto",
+  "lastName": "Uchiha",
+  "address": "2 Alton Lane",
+  "metroStation": 4,
+  "phone": "+7 800 355 35 35",
+  "rentTime": 5,
+  "deliveryDate": "2025-08-14",
+  "comment": "Saske, come back to Konoha. Saske, come back to Konoha.",
+  "color": ["BLACK"]
+}
+```
+5. Accept the order:
+   a. Request Type: PUT
+   b. Endpoint: /api/v1/orders/accept/1?courierId=1
+6. Open the Urban Scooter mobile app.
+7. Log in with the courier account created.
+8. Close the app but leave the session active.
+9. Set the device date to the delivery day (August 14, 2025).
+10. Set the device time to 21:58.
+11. Lock the device and wait until 21:59.
+
+**Expected Result:** A push notification appears 2 hours before the delivery deadline (23:59).
+
+**Actual Result:** No push notification is received.
+
+**Severity:** Critical.
+**Priority:** Highest.
+
+**Environment:**
+- Android Studio Emulator
+- OS: Android 9.0 Pie
+- Resolution: 1080 x 1920 px
+- Screen: 5.5”
+- RAM: 1GB
+- Internal Storage: 3GB
+
+**Active server URL at time of testing:** [URL]
+
+**Attachments:**  
+![Notifications ON](assets/reporte/US1%20Notificaciones%20activadas.jpg)  
+![Data base](assets/reporte/US1%20base%20de%20datos.jpg)  
+![Test input](assets/reporte/US1%20datos%20de%20la%20prueba.jpg)  
+[No push notifications](assets/reporte/US1%20no%20hay%20notificación%20push.%20pruebas%20en%20limites.mp4)  
+![Courier app](assets/reporte/US1%20prueba%20aceptada%20por%20repartidor.jpg)
