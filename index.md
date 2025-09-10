@@ -3,7 +3,6 @@ layout: default
 ---
 
 # QA ENGINEER | QUALITY ASSURANCE ANALYST
-
 I’m a QA Engineer with a background in screenwriting, translation, and content development, which has given me a sharp eye for detail and clarity. I don’t just look for bugs—I put myself in the end user’s shoes, making apps intuitive, clear, and enjoyable to use.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-6A8EDD?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/victoriabozo/)
@@ -11,17 +10,17 @@ I’m a QA Engineer with a background in screenwriting, translation, and content
 ## Technical Skills
 Testing: Functional, Regression, Smoke, Non-functional | REST | JSON | SQL | Agile/Scrum | DevTools | Technical Writing
 
-![Postman](https://img.shields.io/badge/Postman-3F587A?style=for-the-badge&logo=postman&logoColor=white)
-![Jira](https://img.shields.io/badge/jira-4A6FA5?style=for-the-badge&logo=jira&logoColor=white)
-![Python](https://img.shields.io/badge/python-597CBF?style=for-the-badge&logo=python&logoColor=white)
-![Pytest](https://img.shields.io/badge/pytest-6A8EDD?style=for-the-badge&logo=pytest&logoColor=white)
-![Selenium](https://img.shields.io/badge/selenium-7B9FEB?style=for-the-badge&logo=selenium&logoColor=white)
-![PyCharm](https://img.shields.io/badge/pycharm-8CAFFF?style=for-the-badge&logo=pycharm&logoColor=white)
-![Android Studio](https://img.shields.io/badge/android%20studio-7B9FEB?style=for-the-badge&logo=android%20studio&logoColor=white)
-![GitHub](https://img.shields.io/badge/github-6A8EDD?style=for-the-badge&logo=github&logoColor=white)
-![Windows Terminal](https://img.shields.io/badge/Windows%20Terminal-597CBF?style=for-the-badge&logo=windows-terminal&logoColor=white)
-![Canva](https://img.shields.io/badge/Canva-4A6FA5?style=for-the-badge&logo=Canva&logoColor=white)
-![Asana](https://img.shields.io/badge/asana-3F587A?style=for-the-badge&logo=asana&logoColor=white)
+![Postman](https://img.shields.io/badge/Postman-3FB500?style=for-the-badge&logo=postman&logoColor=white)
+![Jira](https://img.shields.io/badge/Jira-55B033?style=for-the-badge&logo=jira&logoColor=white)
+![Python](https://img.shields.io/badge/Python-70C066?style=for-the-badge&logo=python&logoColor=white)
+![Pytest](https://img.shields.io/badge/Pytest-85D099?style=for-the-badge&logo=pytest&logoColor=white)
+![Selenium](https://img.shields.io/badge/Selenium-9AD0CC?style=for-the-badge&logo=selenium&logoColor=white)
+![PyCharm](https://img.shields.io/badge/PyCharm-9FD8E0?style=for-the-badge&logo=pycharm&logoColor=white)
+![Android Studio](https://img.shields.io/badge/Android%20Studio-93C1D6?style=for-the-badge&logo=android%20studio&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-7FA5C0?style=for-the-badge&logo=github&logoColor=white)
+![Windows Terminal](https://img.shields.io/badge/Windows%20Terminal-6689A0?style=for-the-badge&logo=windows-terminal&logoColor=white)
+![Canva](https://img.shields.io/badge/Canva-4F6B80?style=for-the-badge&logo=Canva&logoColor=white)
+![Asana](https://img.shields.io/badge/Asana-3F587A?style=for-the-badge&logo=asana&logoColor=white)
 ![Trello](https://img.shields.io/badge/Trello-3F587A?style=for-the-badge&logo=Trello&logoColor=white)
 
 ## Projects
@@ -39,10 +38,10 @@ Automated the end-to-end taxi booking workflow in the Urban Routes app, simulati
 - Assertions for validating inputs, visual elements, and component states.
 
 **Workflow Tested:**
-- Configuring origin and destination.
+- Setting origin and destination.
 - Selecting Comfort fare.
 - Entering and confirming phone number.
-- Adding payment details and messages for driver.
+- Adding payment details and message for driver.
 - Ordering extras (blanket, tissues, ice creams).
 - Confirming order status modal.
 
@@ -69,7 +68,7 @@ class TestUrbanRoutes:
         cls.driver.get(data.urban_routes_url)
         cls.routes_page = urp.UrbanRoutesPage(cls.driver)
 
-# 1. Configurar la dirección:
+# 1. Set address:
     def test_set_route(self):
         address_from = data.address_from
         address_to = data.address_to
@@ -77,13 +76,13 @@ class TestUrbanRoutes:
         assert self.routes_page.get_from() == address_from
         assert self.routes_page.get_to() == address_to
 
-# 2. Seleccionar la tarifa Comfort:
+# 2. Choose Comfort fare:
     def test_select_comfort_rate(self):
         self.routes_page.click_request_taxi_button()
         self.routes_page.click_comfort_rate_icon()
         assert self.routes_page.is_comfort_rate_selected()
 
-# 3. Rellenar el número de teléfono:
+# 3. Set and confirm phone number:
     def test_set_phone_number(self):
         phone = data.phone_number
         self.routes_page.click_phone_number_button()
@@ -105,12 +104,12 @@ class TestUrbanRoutes:
 [View Full Project on GitHub](https://github.com/victoriabozo/qa-project-Urban-Grocers-app-es)
 
 **Overview:**
-Automated validation of the name field in product kits for the Urban Grocers app. Ensured that product names meet length and formatting criteria, catching invalid inputs before they reach production.
+Automated validation of the name field in product kits for the Urban Grocers app. Ensured that kit names meet length and formatting criteria, catching invalid inputs before they reach production.
 
 **Tools & Methods:**
 - Python & pytest for test automation.
-- Requests library for HTTP API testing.
-- Positive and negative tests on field name.
+- *requests* library for HTTP API testing.
+- Positive and negative tests for the "name" field.
 - Status code assertions (201, 400) and JSON content validation.
 - Test cases included minimum/maximum length, special characters, spaces, numbers, and missing/invalid values.
 
@@ -147,5 +146,93 @@ def test_kit_name_1_character(): #Prueba 1
 # ...rest of the tests...
 ```
 
-## Other Projects
-Before moving into tech, I worked as a screenwriter and creative lead, writing for film, branded content, and media. I see these projects as part of my portfolio too—they show my ability to build narratives, analyze details, and create clear, engaging communication.
+### Log Analysis & Error Classification
+**Goal:** Save server logs for a specific time period and separate errors by code (400 and 500) into individual files for easier analysis.
+
+**Tools:** cd, mkdir, touch, cat, grep
+
+**Commands used (exact sequence):**
+```bash
+cd ~ 
+mkdir bug1
+
+cd ~/bug1
+mkdir events
+
+touch main.txt
+
+# Collect logs for the specified day and store them in main.txt
+cat  ~/logs/2019/12/apache_2019-12-30.txt > ~/bug1/main.txt
+
+# Filter 400 and 500 errors from main.txt into separate files
+grep ' 400 ' ~/bug1/main.txt > ~/bug1/events/400.txt
+grep ' 500 ' ~/bug1/main.txt > ~/bug1/events/500.txt
+```
+
+**Step-by-step explanation:**
+- mkdir bug1 / mkdir events → create the working directory and the subdirectory where error files will be stored.
+- touch main.txt and cat ... > ~/bug1/main.txt → ensure the file exists and load the logs for the specified day into it.
+- grep ' 400 ' ... and grep ' 500 ' ... → extract lines containing status codes 400 and 500, saving them into separate files.
+
+**Results Sample (real excerpts from the output files):**
+```bash
+~/bug1/events/400.txt
+80.57.170.51 - - [30/12/2019:21:35:12 +0000] "DELETE /users HTTP/1.1" 400 3623
+204.235.176.118 - - [30/12/2019:21:35:13 +0000] "POST /users HTTP/1.1" 400 4704
+82.95.203.67 - - [30/12/2019:21:35:19 +0000] "DELETE /lists HTTP/1.1" 400 3737
+155.242.215.46 - - [30/12/2019:21:35:38 +0000] "POST /playbooks HTTP/1.1" 400 4450
+189.176.85.0 - - [30/12/2019:21:35:39 +0000] "PATCH /alerts HTTP/1.1" 400 2732
+13.108.71.71 - - [30/12/2019:21:35:43 +0000] "PATCH /events HTTP/1.1" 400 3410
+...
+
+~/bug1/events/500.txt
+64.250.112.189 - - [30/12/2019:21:35:13 +0000] "PUT /parsers HTTP/1.1" 500 4639
+193.253.101.180 - - [30/12/2019:21:35:31 +0000] "PATCH /alerts HTTP/1.1" 500 2944
+197.106.117.194 - - [30/12/2019:21:35:31 +0000] "PATCH /parsers HTTP/1.1" 500 3519
+247.124.71.67 - - [30/12/2019:21:35:45 +0000] "PUT /alerts HTTP/1.1" 500 2746
+62.88.204.119 - - [30/12/2019:21:35:51 +0000] "PUT /auth HTTP/1.1" 500 2666
+125.156.142.26 - - [30/12/2019:21:36:01 +0000] "PATCH /events HTTP/1.1" 500 3460
+...
+```
+
+**Outcome:** A structured directory ~/bug1 containing main.txt (logs for the chosen period) and ~/bug1/events/400.txt / ~/bug1/events/500.txt with lines filtered by error type — ready for developers or QA engineers to investigate root causes.
+
+### Database | SQL
+**Goal:** Retrieve the number of trips per taxi company for November 15–16, 2017, to verify discrepancies in reported earnings. Return company_name and trips_amount, ordered descending by trips_amount.
+
+**Tools:** SQL (SELECT, COUNT, JOIN, GROUP BY, ORDER BY) on tables trips, cabs, and weather_records.
+
+**Results Sample:**
+```
+company_name                                 | trips_amount
+---------------------------------------------+--------------
+Flash Cab                                     | 19558
+Taxi Affiliation Services                     | 11422
+Medallion Leasin                              | 10367
+Yellow Cab                                    |  9888
+Taxi Affiliation Service Yellow               |  9299
+Chicago Carriage Cab Corp                     |  9181
+City Service                                  |  8448
+Sun Taxi                                      |  7701
+Star North Management LLC                     |  7455
+Blue Ribbon Taxi Association Inc.             |  5953
+...
+```
+
+**SQL query used:**
+```bash
+SELECT
+    cabs.company_name AS company_name,
+    COUNT(DISTINCT trip_id) AS trips_amount
+FROM
+    trips
+INNER JOIN weather_records ON trips.start_ts = weather_records.ts
+INNER JOIN cabs ON trips.cab_id = cabs.cab_id
+WHERE 
+    weather_records.ts BETWEEN '2017-11-15 00:00:00' 
+    AND '2017-11-16 23:59:59'
+GROUP BY
+    company_name
+ORDER BY
+    trips_amount DESC;
+```
