@@ -268,15 +268,17 @@ Critical issue where scheduled push notifications for upcoming deliveries did no
    c. Body: (deliveryDate must be at least 2 days in the future)<br/>
 ```json
 {
-  "firstName": "Naruto",
+  "firstName": "Prueba2",
   "lastName": "Uchiha",
-  "address": "2 Alton Lane",
+  "address": "prueba2",
   "metroStation": 4,
   "phone": "+7 800 355 35 35",
   "rentTime": 5,
   "deliveryDate": "2025-08-14",
   "comment": "Saske, come back to Konoha. Saske, come back to Konoha.",
-  "color": ["BLACK"]
+  "color": [
+        "BLACK"
+]
 }
 ```
 5. Accept the order:<br/>
@@ -308,9 +310,17 @@ Critical issue where scheduled push notifications for upcoming deliveries did no
 **Active server URL at time of testing:** [URL]
 
 **Attachments:**  
-![Notifications ON](assets/reporte/US1%20Notificaciones%20activadas.jpg)  
-![Data base](assets/reporte/US1%20base%20de%20datos.jpg)  
+Notifications are on:
+![Notifications ON](assets/reporte/US1%20Notificaciones%20activadas.jpg)   
+
+Order has been created (Postman):
 ![Test input](assets/reporte/US1%20datos%20de%20la%20prueba.jpg) 
+
+Order appears in database:
+![Data base](assets/reporte/US1%20base%20de%20datos.jpg) 
+
+Courier has accepted the order:
 ![Courier app](assets/reporte/US1%20prueba%20aceptada%20por%20repartidor.jpg)
 
+No push notifications appear:
 [No push notifications](assets/reporte/US1%20no%20hay%20notificación%20push.%20pruebas%20en%20limites.mp4)  
