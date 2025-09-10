@@ -23,6 +23,7 @@ Testing: Functional, Regression, Smoke, Non-functional | REST | JSON | SQL | Agi
 ![Asana](https://img.shields.io/badge/Asana-3F587A?style=for-the-badge&logo=asana&logoColor=white)
 ![Trello](https://img.shields.io/badge/Trello-3F587A?style=for-the-badge&logo=Trello&logoColor=white)
 
+
 # Projects
 ## Automated Taxi Booking – Urban Routes
 [View Full Project on GitHub](https://github.com/victoriabozo/qa-project-Urban-Routes-es)
@@ -147,6 +148,7 @@ def test_kit_name_1_character(): #Prueba 1
 # ...rest of the tests...
 ```
 
+
 # Work Samples
 ## Log Analysis & Error Classification
 **Goal:** Save server logs for a specific time period and separate errors by code (400 and 500) into individual files for easier analysis.
@@ -248,10 +250,10 @@ Critical issue where scheduled push notifications for upcoming deliveries did no
 **Steps to Reproduce:**
 1. Restart the server if it was active.
 2. Open Postman.
-3. Create a courier:
-   a. Request Type: POST
-   b. Endpoint: /api/v1/courier
-   c. Body:
+3. Create a courier:<br/>
+   a. Request Type: POST<br/>
+   b. Endpoint: /api/v1/courier<br/>
+   c. Body:<br/>
 ```json
 {
   "login": "ninja",
@@ -260,10 +262,10 @@ Critical issue where scheduled push notifications for upcoming deliveries did no
 }
 ```
 
-4. Create an order:
-   a. Request Type: POST
-   b. Endpoint: /api/v1/orders
-   c. Body: (deliveryDate must be at least 2 days in the future)
+4. Create an order:<br/>
+   a. Request Type: POST<br/>
+   b. Endpoint: /api/v1/orders<br/>
+   c. Body: (deliveryDate must be at least 2 days in the future)<br/>
 ```json
 {
   "firstName": "Naruto",
@@ -277,9 +279,9 @@ Critical issue where scheduled push notifications for upcoming deliveries did no
   "color": ["BLACK"]
 }
 ```
-5. Accept the order:
-   a. Request Type: PUT
-   b. Endpoint: /api/v1/orders/accept/1?courierId=1
+5. Accept the order:<br/>
+   a. Request Type: PUT<br/>
+   b. Endpoint: /api/v1/orders/accept/1?courierId=1<br/>
 6. Open the Urban Scooter mobile app.
 7. Log in with the courier account created.
 8. Close the app but leave the session active.
@@ -291,7 +293,7 @@ Critical issue where scheduled push notifications for upcoming deliveries did no
 
 **Actual Result:** No push notification is received.
 
-**Severity:** Critical.
+**Severity:** Critical. <br/> 
 **Priority:** Highest.
 
 **Environment:**
@@ -307,6 +309,6 @@ Critical issue where scheduled push notifications for upcoming deliveries did no
 **Attachments:**  
 ![Notifications ON](assets/reporte/US1%20Notificaciones%20activadas.jpg)  
 ![Data base](assets/reporte/US1%20base%20de%20datos.jpg)  
-![Test input](assets/reporte/US1%20datos%20de%20la%20prueba.jpg)  
-[No push notifications](assets/reporte/US1%20no%20hay%20notificación%20push.%20pruebas%20en%20limites.mp4)  
+![Test input](assets/reporte/US1%20datos%20de%20la%20prueba.jpg) 
 ![Courier app](assets/reporte/US1%20prueba%20aceptada%20por%20repartidor.jpg)
+[No push notifications](assets/reporte/US1%20no%20hay%20notificación%20push.%20pruebas%20en%20limites.mp4)  
