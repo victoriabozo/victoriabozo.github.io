@@ -2,7 +2,8 @@
 layout: default
 ---
 
-<h1 align="center">QA ENGINEER | QUALITY ASSURANCE ANALYST</h1>
+<h1 align="center">QA ENGINEER</h1> <br/>
+<h1 align="center">QUALITY ASSURANCE ANALYST</h1>
 I’m a QA Engineer with a background in screenwriting, translation, and content development, which has given me a sharp eye for detail and clarity. I don’t just look for bugs—I put myself in the end user’s shoes, making apps intuitive, clear, and enjoyable to use.
 
 **Let’s connect!** <br/>
