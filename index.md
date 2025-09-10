@@ -294,6 +294,7 @@ Critical issue where scheduled push notifications for upcoming deliveries did no
 **Actual Result:** No push notification is received.
 
 **Severity:** Critical. <br/> 
+
 **Priority:** Highest.
 
 **Environment:**
@@ -311,4 +312,5 @@ Critical issue where scheduled push notifications for upcoming deliveries did no
 ![Data base](assets/reporte/US1%20base%20de%20datos.jpg)  
 ![Test input](assets/reporte/US1%20datos%20de%20la%20prueba.jpg) 
 ![Courier app](assets/reporte/US1%20prueba%20aceptada%20por%20repartidor.jpg)
+
 [No push notifications](assets/reporte/US1%20no%20hay%20notificación%20push.%20pruebas%20en%20limites.mp4)  
