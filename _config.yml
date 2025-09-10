@@ -1,9 +1,11 @@
 title: Victoria Bozo
-description: 
 logo: /assets/img/IMG_08412-modified.png
-description: QA Engineer
+#description: QA Engineer
 show_download: true
 google_analytics: [Your Google Analytics tracking ID]
 remote_theme: pages-themes/minimal@v0.2.0
+# theme: minima
+# markdown: kramdown
+# highlighter: rouge
 plugins:
 - jekyll-remote-theme
