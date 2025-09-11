@@ -251,7 +251,7 @@ ORDER BY
 ```
 
 ## Jira Bug Hunt – Urban Scooter
-Critical issue where scheduled push notifications for upcoming deliveries did not appear. Reproduced the bug by creating a courier and order via Postman, then simulating delivery time on an Android Studio emulator. Documented steps, expected vs. actual results, environment details, and severity for a clear, actionable report.
+Critical issue where scheduled **push notifications** for upcoming deliveries did not appear. Reproduced the bug by creating a courier and order via Postman, then simulating delivery time on an Android Studio emulator. Documented steps, expected vs. actual results, environment details, and severity for a clear, actionable report.
 
 **Preconditions:**
 - Postman account.
@@ -334,8 +334,7 @@ Order appears in database:
 Courier has accepted the order: <br/>
 ![Courier app](assets/reporte/resized.jpg)
 
-No push notifications appear: <br/>
-The following screen recording shows several timestamps, in addition to the one indicated in this report (21:58), to test the different boundary values of the push notification function.
+**No push notifications appear 🐞:** The following screen recording shows several timestamps, in addition to the one indicated in this report (21:58), to test the different boundary values of the push notification function.
 
 **[Watch the Screen Recording](assets/reporte/US1%20no%20hay%20notificación%20push.%20pruebas%20en%20limites.mp4)**  
 
