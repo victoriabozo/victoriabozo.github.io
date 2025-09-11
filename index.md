@@ -3,12 +3,22 @@ layout: default
 ---
 
 <h1 align="center">QA ENGINEER | QUALITY ASSURANCE ANALYST</h1>
-I’m a QA Engineer with a background in screenwriting, translation, and content development, which has given me a sharp eye for detail and clarity. I don’t just look for bugs—I put myself in the end user’s shoes, making apps intuitive, clear, and enjoyable to use.
+I’m a QA Engineer with a background in screenwriting, translation, and content development, which has given me a sharp eye for detail and clarity. I don’t just look for bugs—I put myself in the end user’s shoes, making apps intuitive, clear, and enjoyable to use. <br/>
 
 **Let’s connect!** <br/>
-🔗 [LinkedIn](https://www.linkedin.com/in/victoriabozo/) | 🐙 [GitHub](https://github.com/victoriabozo) | 📄 [Resume](https://drive.google.com/file/d/1BGqwEppZggO9N7ar6yLVAX9AiU-O6d62/view) | ✉️ [victoriabozo.qa@gmail.com](mailto:victoriabozo.qa@gmail.com)
+🔗 [LinkedIn](https://www.linkedin.com/in/victoriabozo/) | 🐙 [GitHub](https://github.com/victoriabozo) | 📄 [Resume](https://drive.google.com/file/d/178h3zmWy051zRKJfg5mjCYeosNMtk79b/view?usp=sharing) | ✉️ [victoriabozo.qa@gmail.com](mailto:victoriabozo.qa@gmail.com)
 
-## Technical Skills
+## Portfolio Map
+- [Tech Toolbox](#tech-toolbox)
+- [Automation Showcase](#automation-showcase)
+    - [Automated Taxi Booking – Urban Routes](#automated-taxi-booking--urban-routes)
+    - [Automated API Magic – Urban Grocers](#automated-api-magic--urban-grocers)
+- [Hands-On Demos](#hands-on-demos)
+    - [Logs – Error Detective Work](#logs--error-detective-work)
+    - [SQL – Digging for Data](#sql--digging-for-data)
+    - [Jira Bug Hunt – Urban Scooter](#jira-bug-hunt--urban-scooter)
+
+## Tech Toolbox
 Testing: Functional, Regression, Smoke, Non-functional | REST | JSON | SQL | Agile/Scrum | DevTools | Technical Writing
 
 ![Postman](https://img.shields.io/badge/Postman-3FB500?style=for-the-badge&logo=postman&logoColor=white)
@@ -24,8 +34,9 @@ Testing: Functional, Regression, Smoke, Non-functional | REST | JSON | SQL | Agi
 ![Asana](https://img.shields.io/badge/Asana-3F587A?style=for-the-badge&logo=asana&logoColor=white)
 ![Trello](https://img.shields.io/badge/Trello-3F587A?style=for-the-badge&logo=Trello&logoColor=white)
 
+🧠 **Currently Leveling Up:** CI/CD and Python 
 
-# Featured Projects
+# Automation Showcase
 ## Automated Taxi Booking – Urban Routes
 [View Full Project on GitHub](https://github.com/victoriabozo/qa-project-Urban-Routes-es)
 
@@ -103,7 +114,7 @@ class TestUrbanRoutes:
   ```
 
 
-## Automated API Testing – Urban Grocers
+## Automated API Magic – Urban Grocers
 [View Full Project on GitHub](https://github.com/victoriabozo/qa-project-Urban-Grocers-app-es)
 
 **Overview:**
@@ -150,8 +161,8 @@ def test_kit_name_1_character(): #Prueba 1
 ```
 
 
-# Work Samples
-## Log Analysis & Error Classification
+# Hands-On Demos
+## Logs – Error Detective Work
 **Goal:** Save server logs for a specific time period and separate errors by code (400 and 500) into individual files for easier analysis.
 
 **Commands used (exact sequence):**
@@ -201,7 +212,7 @@ grep ' 500 ' ~/bug1/main.txt > ~/bug1/events/500.txt
 **Outcome:** A structured directory ~/bug1 containing main.txt (logs for the chosen period) and ~/bug1/events/400.txt / ~/bug1/events/500.txt with lines filtered by error type — ready for developers or QA engineers to investigate root causes.
 
 
-## Database | SQL
+## SQL – Digging for Data
 **Goal:** Retrieve the number of trips per taxi company for November 15–16, 2017, to verify discrepancies in reported earnings. Return company_name and trips_amount, ordered descending by trips_amount.
 
 **Results Sample:**
@@ -239,7 +250,7 @@ ORDER BY
     trips_amount DESC;
 ```
 
-## Bug Report – Urban Scooter Push Notification
+## Jira Bug Hunt – Urban Scooter
 Critical issue where scheduled push notifications for upcoming deliveries did not appear. Reproduced the bug by creating a courier and order via Postman, then simulating delivery time on an Android Studio emulator. Documented steps, expected vs. actual results, environment details, and severity for a clear, actionable report.
 
 **Preconditions:**
@@ -323,7 +334,10 @@ Order appears in database:
 Courier has accepted the order: <br/>
 ![Courier app](assets/reporte/resized.jpg)
 
-**[No push notifications appear. Click HERE for screen recording](assets/reporte/US1%20no%20hay%20notificación%20push.%20pruebas%20en%20limites.mp4)**  
+No push notifications appear: <br/>
+The following screen recording shows several timestamps, in addition to the one indicated in this report (21:58), to test the different boundary values of the push notification function.
+
+**[Watch the Screen Recording](assets/reporte/US1%20no%20hay%20notificación%20push.%20pruebas%20en%20limites.mp4)**  
 
 
-<h1 align="center">· · ·</h1>
+<h1 align="center">That’s a Wrap 🚀</h1>
