@@ -2,7 +2,7 @@
 title: QA Engineer
 layout: default
 head_extra: |
-  <link rel="icon" type="image/png" href="/favicon.png">
+  <link rel="icon" type="image/png" href="/favicon.png?v=1">
 ---
 
 <h1 align="center">QA ENGINEER | QUALITY ASSURANCE ANALYST</h1>
