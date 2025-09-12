@@ -1,5 +1,5 @@
 ---
-title: Victoria Bozo - QA Engineer
+title: QA Engineer
 layout: default
 head_extra: |
   <link rel="icon" type="image/png" href="/favicon.png">
