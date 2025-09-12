@@ -7,5 +7,7 @@ remote_theme: pages-themes/minimal@v0.2.0
 # theme: minima
 # markdown: kramdown
 # highlighter: rouge
+includes:
+  - head-favicon.html
 plugins:
 - jekyll-remote-theme
