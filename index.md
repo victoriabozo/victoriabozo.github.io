@@ -7,7 +7,7 @@ layout: default
 I’m a QA Engineer with a background in screenwriting, translation, and content development, which has given me a sharp eye for detail and clarity. I don’t just look for bugs—I put myself in the end user’s shoes, making apps intuitive, clear, and enjoyable to use. <br/>
 
 **Where I’m lurking:** <br/>
-🔗 [LinkedIn](https://www.linkedin.com/in/victoriabozo/) | 🐙 [GitHub](https://github.com/victoriabozo) | 📄 [Resume](https://drive.google.com/file/d/178h3zmWy051zRKJfg5mjCYeosNMtk79b/view?usp=sharing) | ✉️ [victoriabozo.qa@gmail.com](mailto:victoriabozo.qa@gmail.com)
+🔗 [LinkedIn](https://www.linkedin.com/in/victoriabozo/) | 🐙 [GitHub](https://github.com/victoriabozo) | 📄 [Resume](https://drive.google.com/file/d/1PKdohdFc3Eq-GC7uIvQLA5FLMvSdR0X5/view?usp=sharing) | ✉️ [victoriabozo.qa@gmail.com](mailto:victoriabozo.qa@gmail.com)
 
 ## Portfolio Map
 - [Tech Toolbox](#tech-toolbox)
